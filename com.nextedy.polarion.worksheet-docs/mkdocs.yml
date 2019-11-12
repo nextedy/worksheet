@@ -1,0 +1,35 @@
+site_name: Nextedy Worksheet
+site_description: 'A set of Polarion Extensions to enable project scheduling in Polarion ALM'
+site_author: 'Nextedy'
+
+nav:
+    - Home: index.md
+   
+
+theme:
+  name: 'material'
+  font: false
+  palette:
+    primary: 'black'
+    accent: 'red'
+  favicon: img/favicon.png
+  custom_dir: 'theme'
+  logo: 'https://www.nextedy.com/wp-content/uploads/2018/10/nextedy-logo.png'
+
+extra_css:
+  - 'extra/extra.css'
+
+
+extra_javascript:
+  - 'extra/extra.js'
+  
+markdown_extensions:
+  - admonition
+  - codehilite
+  - meta
+  - tables
+  - attr_list
+  
+  
+copyright: 'Copyright &copy; 2019 Nextedy Systems'
+  
