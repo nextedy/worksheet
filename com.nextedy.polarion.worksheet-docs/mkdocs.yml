@@ -4,7 +4,7 @@ site_author: 'Nextedy'
 
 nav:
     - Home: index.md
-   
+    - Download: download.md
 
 theme:
   name: 'material'
