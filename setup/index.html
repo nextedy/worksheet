@@ -241,6 +241,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     Install Demo Project
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#add-worksheet-navigation-entry" title="Add Worksheet Navigation Entry" class="md-nav__link">
+    Add Worksheet Navigation Entry
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup-team-work-item-type" title="Setup Team Work Item Type" class="md-nav__link">
+    Setup Team Work Item Type
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-team-items" title="Add Team Items" class="md-nav__link">
+    Add Team Items
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
       
@@ -322,6 +349,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     Install Demo Project
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#add-worksheet-navigation-entry" title="Add Worksheet Navigation Entry" class="md-nav__link">
+    Add Worksheet Navigation Entry
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup-team-work-item-type" title="Setup Team Work Item Type" class="md-nav__link">
+    Setup Team Work Item Type
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-team-items" title="Add Team Items" class="md-nav__link">
+    Add Team Items
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
       
@@ -357,7 +411,50 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 <h2 id="install-demo-project">Install Demo Project</h2>
 <p>## Configure Existing Project\</p>
-<p>TODO</p>
+<h3 id="add-worksheet-navigation-entry">Add Worksheet Navigation Entry</h3>
+<ol>
+<li>Go to <code>Project Administration &gt; Portal &gt; Topics</code></li>
+<li>Select <code>Default</code> view</li>
+<li>Add there: </li>
+</ol>
+<div class="codehilite"><pre><span></span>    <span class="o">&lt;</span><span class="n">topic</span> <span class="n">id</span><span class="o">=</span><span class="ss">&quot;worksheet&quot;</span><span class="o">/&gt;</span>
+</pre></div>
+
+
+<h3 id="setup-team-work-item-type">Setup Team Work Item Type</h3>
+<ol>
+<li>Go to <code>Project Administration &gt; Work Items &gt; Types</code></li>
+<li>Setup a new work item type with ID "team"</li>
+<li>Setup custom fields for the Team work item, i.e. go to <code>Project Administration &gt; Work Items &gt; Custom Fields</code></li>
+<li>Crete new configuration for type  <code>Team</code></li>
+<li>Add <strong>multi-valued</strong> custom field <code>members</code> of type <code>Enum:User</code></li>
+<li>Add custom field <code>properties</code> of type <code>Text (multi line)</code></li>
+</ol>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>If you want to use other work items than those with type.id <code>team</code>, or if you want to load the team items from other than current projecty, use following context property to override the default:</p>
+<p><code>nextedy.team.query=project.id:{0} AND type:team</code></p>
+<p>You can also change the name of the <code>properties</code> custom field by context property:</p>
+<p><code>nextedy.team.key.properties=properties</code></p>
+</div>
+<h3 id="add-team-items">Add Team Items</h3>
+<ol>
+<li>Go to <code>Project &gt; Work Items &gt; Team</code></li>
+<li>Create your teams by creating item of type "team"</li>
+<li>Select team members by using custom field "members"</li>
+<li>Optionally setup team properties, e.g.</li>
+</ol>
+<div class="codehilite"><pre><span></span><span class="n">nextedy</span><span class="p">.</span><span class="n">team</span><span class="p">.</span><span class="n">worksheet</span><span class="p">.</span><span class="n">assignments</span><span class="p">.</span><span class="n">rProject</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">0</span>
+<span class="n">nextedy</span><span class="p">.</span><span class="n">team</span><span class="p">.</span><span class="n">worksheet</span><span class="p">.</span><span class="n">items</span><span class="p">.</span><span class="n">query</span><span class="p">.</span><span class="mi">1</span><span class="p">.</span><span class="n">label</span><span class="o">=</span><span class="n">Unresolved</span> <span class="n">Team</span> <span class="n">Tasks</span>
+<span class="n">nextedy</span><span class="p">.</span><span class="n">team</span><span class="p">.</span><span class="n">worksheet</span><span class="p">.</span><span class="n">items</span><span class="p">.</span><span class="n">query</span><span class="p">.</span><span class="mi">1</span><span class="p">.</span><span class="n">pattern</span><span class="o">=</span><span class="n">assignee</span><span class="p">.</span><span class="n">id</span><span class="p">:</span><span class="err">{</span><span class="mi">1</span><span class="err">}</span> <span class="k">AND</span> <span class="k">NOT</span> <span class="n">HAS_VALUE</span><span class="p">:</span><span class="n">resolution</span>
+<span class="n">nextedy</span><span class="p">.</span><span class="n">team</span><span class="p">.</span><span class="n">worksheet</span><span class="p">.</span><span class="n">items</span><span class="p">.</span><span class="n">query</span><span class="p">.</span><span class="mi">2</span><span class="p">.</span><span class="n">label</span><span class="o">=</span><span class="n">Resolved</span> <span class="n">Team</span> <span class="n">Tasks</span>
+<span class="n">nextedy</span><span class="p">.</span><span class="n">team</span><span class="p">.</span><span class="n">worksheet</span><span class="p">.</span><span class="n">items</span><span class="p">.</span><span class="n">query</span><span class="p">.</span><span class="mi">2</span><span class="p">.</span><span class="n">pattern</span><span class="o">=</span><span class="n">assignee</span><span class="p">.</span><span class="n">id</span><span class="p">:</span><span class="err">{</span><span class="mi">1</span><span class="err">}</span> <span class="k">AND</span>  <span class="n">HAS_VALUE</span><span class="p">:</span><span class="n">resolution</span>
+<span class="n">nextedy</span><span class="p">.</span><span class="n">team</span><span class="p">.</span><span class="n">workRecordsItemsQuery</span><span class="o">=</span><span class="k">type</span><span class="p">:</span><span class="n">task</span>
+<span class="n">nextedy</span><span class="p">.</span><span class="n">team</span><span class="p">.</span><span class="n">eventItemsQuery</span><span class="o">=</span><span class="n">project</span><span class="p">.</span><span class="n">id</span><span class="p">:</span><span class="err">{</span><span class="mi">2</span><span class="err">}</span> <span class="k">AND</span> <span class="k">type</span><span class="p">:(</span><span class="n">event</span><span class="p">)</span> <span class="k">AND</span> <span class="n">assignee</span><span class="p">.</span><span class="n">id</span><span class="p">:</span><span class="err">{</span><span class="mi">1</span><span class="err">}</span>
+</pre></div>
+
+
+<p>TODO: full list ....</p>
 <p><hr>
 <iframe src="https://nextedy.github.io/worksheet/download/bnum.txt" height=35 style="padding-top:10px;border:0px solid white;"> </iframe></p>
                 
