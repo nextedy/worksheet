@@ -1,6 +1,11 @@
 # Download Nextedy WORKSHEET
 
-Please fill in your email address to download the installation package and initiate the trial.
+
+!!! Installation Instructions
+	The installation instructions are available at the [support center](https://nextedy.freshdesk.com/support/solutions/articles/48000973428-nextedy-worksheet-installation-guide).
+
+
+Please fill in your email address to download the installation package.
 
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>

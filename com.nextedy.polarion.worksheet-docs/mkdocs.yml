@@ -4,8 +4,8 @@ site_author: 'Nextedy'
 
 nav:
     - Home: index.md
-    - Setup: setup.md
     - Download: download.md
+    - Pricing: pricing.md 
     - Support: support.md 
     - About: about.md
 
