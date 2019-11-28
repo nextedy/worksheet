@@ -14,7 +14,7 @@ theme:
   font: false
   palette:
     primary: 'black'
-    accent: 'red'
+    accent: 'green'
   favicon: img/favicon.png
   custom_dir: 'theme'
   logo: 'https://www.nextedy.com/wp-content/uploads/2018/10/nextedy-logo.png'
