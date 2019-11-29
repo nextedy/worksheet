@@ -3,7 +3,7 @@
 
 ### 1.5.* <small>- Nov 25, 2019 </small>
 
-* Initial public release
+* Initial early access release
 
 ### 1.0.* <small>- Oct 12, 2019 </small>
 
