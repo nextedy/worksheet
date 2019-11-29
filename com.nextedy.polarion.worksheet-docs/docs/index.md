@@ -7,14 +7,14 @@
 * *Maximize team capacity allocations*
 * *Create and assign work records with ease for micro-planning or service-time recording*
 
-<a class="sshot" href="/img/worksheet-all.png" title="Worksheet in Polarion ALM"><img src="/img/worksheet-all.png" alt="Worksheet in Polarion ALM" /></a>
+<a class="sshot" href="/img/worksheet-all.png" title="Worksheet in Polarion ALM"><img src="/img/worksheet-all-thumb.png" alt="Worksheet in Polarion ALM" /></a>
 
 
 ## Discover available resources
 
 Browse the timeline of your project and access an overview of all the resources in your teams. Instantly spot available or overloaded resources and ensure you deliver projects on time and with maximized effectivity. 
 
-<a class="sshot" href="/img/worksheet-browse.gif" title="Worksheet browse Timeline"><img src="worksheet-browse.gif" alt="Worksheet browse Timeline" /></a>
+<a class="sshot" href="/img/worksheet-browse.gif" title="Worksheet browse Timeline"><img src="/img/worksheet-browse.gif" alt="Worksheet browse Timeline" /></a>
 
 ## Maximize team capacity
 
@@ -50,13 +50,6 @@ The team item holds the information who works in a team, with what capacity. You
 ### Manage Records
 
 Create work records either through the Polarion interface or directly from the Nextedy WORKSHEET interface.
-
-<center>
-![Worksheet New](img/worksheet-new.gif)
-<br/>
-<a href="/img/worksheet-new.gif" target="_blank"  style="font-size:0.9em">Maximize in a new tab</a>
-</center>
-
 
 <a class="sshot" href="/img/worksheet-new.gif" title="Manage Records "><img src="/img/worksheet-new.gif" alt="Manage Records" /></a>
 
