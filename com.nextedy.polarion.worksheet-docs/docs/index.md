@@ -65,7 +65,9 @@ new SimpleLightbox({elements: 'a.sshot'});
 
 <div class="card">
   <a href="https://gantt.nextedy.com/">
+  <div class="picture">
   <img src="https://gantt.nextedy.com/img/resource-panel.png" alt="Avatar" style="width:100%">
+  </div>
   <div class="container">
     <h4><b>Nextedy GANTT</b></h4>
     <p>The first interactive high-level project planning & scheduling in Polarion ALM.</p>
@@ -75,7 +77,9 @@ new SimpleLightbox({elements: 'a.sshot'});
 
 <div class="card">
   <a href="https://checklist.nextedy.com/">
+    <div class="picture">
   <img src="https://checklist.nextedy.com/img/checklist.png" alt="Avatar" style="width:100%">
+    </div>
   <div class="container">
     <h4><b>Nextedy CHECKLIST</b></h4>
     <p>Extend your Polarion with action-able checklists to support your workflow process.</p>
