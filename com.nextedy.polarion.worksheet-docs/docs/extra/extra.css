@@ -163,6 +163,7 @@ style> <style> /* The Modal (background) */ .modal {
   float: left;
   margin:10px;
   min-height: 400px;
+  background-color:white;
 }
 .card a{
 	color:black;

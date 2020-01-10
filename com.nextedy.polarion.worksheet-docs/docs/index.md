@@ -59,8 +59,8 @@ Create work records either through the Polarion interface or directly from the N
 new SimpleLightbox({elements: 'a.sshot'});
 </script>
 
-
-## Other Polarion Solutions by Nextedy Systems
+<div style="background-color: whitesmoke;padding:20px;">
+<h2> Other Polarion Solutions by Nextedy Systems</h2>
 
 
 <div class="card">
@@ -86,9 +86,10 @@ new SimpleLightbox({elements: 'a.sshot'});
   </div>
   </a>
 </div>
-
-
-
 <div style="clear: both;"></div>
+
+</div>
+
+
 <br/><br/><br/>
 
