@@ -1,9 +1,13 @@
 # Download Nextedy WORKSHEET
 
 
-!!! Installation Instructions
-	The installation instructions are available at the [support center](https://nextedy.freshdesk.com/support/solutions/articles/48000973428-nextedy-worksheet-installation-guide).
+## Installation Instructions
 
+The installation instructions are available at the [support center](https://nextedy.freshdesk.com/support/solutions/articles/48000973428-nextedy-worksheet-installation-guide).
+	
+Installation requirements: <br/>&nbsp;&nbsp;&nbsp;*Polarion 18.1 and newer*
+
+## Download
 
 Please fill in your email address to download the installation package.
 
@@ -17,9 +21,10 @@ Please fill in your email address to download the installation package.
 </script>
 
 
-!!! info
-	**Cannot download?** We have experienced that some privacy browser add-ons are blocking our CRM System HubSpot (Although we  follow the privacy recommendations and we support GDPR standard). 
+## Cannot download?
+
+We have experienced that some privacy browser add-ons are blocking our CRM System HubSpot (Although we  follow the privacy recommendations and we support GDPR standard). 
 	
 	
-	If you cannot download the distribution from our website - please write us an email to <a href="mailto:info@nextedy.com">info@nextedy.com</a>
+If you cannot download the distribution from our website - please write us an email to <a href="mailto:info@nextedy.com">info@nextedy.com</a>
 
