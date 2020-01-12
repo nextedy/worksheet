@@ -280,6 +280,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 
                 <style>h1{display:none}</style>
 
+<div id="progress" style="padding-top:30px">
+<b>Loading news ...</b>
+</div>
+
 <div style="display:none" id="news">
 <a class="twitter-timeline" href="https://twitter.com/nextedy?ref_src=twsrc%5Etfw">Tweets by nextedy</a>
 </div>
@@ -287,6 +291,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 <script>
 function setSizes(){
+$("#progress").hide();
 $("#news").show();
 $(".twitter-timeline").contents().find(".timeline-Tweet-text").css("font-size","18px");
 $(".twitter-timeline").contents().find(".timeline-Tweet-text").css("line-height","26px");
@@ -298,7 +303,7 @@ var findTweet = function(){
     i++;
     var targetFrame = document.querySelector(".twitter-timeline");
     if(targetFrame!=null){
-            setSizes();
+                setTimeout(setSizes, 200);      
     }else {
             if(i<100){
                 setTimeout(findTweet, 100);         
