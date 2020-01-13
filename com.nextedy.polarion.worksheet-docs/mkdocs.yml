@@ -9,7 +9,7 @@ nav:
     - Pricing: pricing.md 
     - Support: support.md 
     - News: news.md
-    - About: about.md
+    - About us: about.md
 
 theme:
   name: 'material'
@@ -39,6 +39,16 @@ extra:
      id: 6265870
      quoteFormId: 208fa80c-333b-4347-a303-afa5199f70e7
      downloadFormId: 7bbfe403-1d5c-48fb-9e82-4bdcc46c7e4f
+  other1:
+     name: Nextedy GANTT
+     url: https://gantt.nextedy.com
+     image: https://gantt.nextedy.com/img/resource-panel.png
+     description: The first interactive high-level project planning & scheduling in Polarion ALM.
+  other2:
+     name: Nextedy CHECKLIST
+     url: https://checklist.nextedy.com
+     image: https://checklist.nextedy.com/img/checklist.png
+     description: Extend your Polarion with action-able checklists to support your workflow process.
   
 markdown_extensions:
   - admonition
