@@ -1,11 +1,11 @@
-# Download Nextedy WORKSHEET
+# Download {{product.name}}
 
 
 ## Installation Instructions
 
-The installation instructions are available at the [support center](https://nextedy.freshdesk.com/support/solutions/articles/48000973428-nextedy-worksheet-installation-guide).
+The installation instructions are available at the [support center]({{support.installGuide}}).
 	
-Installation requirements: <br/>&nbsp;&nbsp;&nbsp;*Polarion 18.1 and newer*
+Installation requirements: <br/>&nbsp;&nbsp;&nbsp;*{{product.requirements}}*
 
 ## Download
 
@@ -15,8 +15,8 @@ Please fill in your email address to download the installation package.
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
   hbspt.forms.create({
-	portalId: "6265870",
-	formId: "7bbfe403-1d5c-48fb-9e82-4bdcc46c7e4f"
+	portalId: "{{hs.id}}",
+	formId: "{{hs.downloadFormId}}"
 });
 </script>
 

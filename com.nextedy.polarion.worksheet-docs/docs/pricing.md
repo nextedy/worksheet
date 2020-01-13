@@ -1,7 +1,7 @@
 #  Pricing FAQ
 
 
-## 1. How much does the "Nextedy WORKSHEET" license cost?
+## 1. How much does the "{{product.name}}" license cost?
 
 No haggle  - Our pricing is simple, fair and transparent.
 
@@ -68,13 +68,13 @@ Software maintenance renewals commence from the expiration of your active mainte
 ## 4. What are the license terms?
 A valid commercial license entitles you to:
 
-* Install *Nextedy WORKSHEET* Software on a single instance in a production environment on **1 Polarion server** (including load balanced clustered server)
-* **Perpetual (time unlimited)** use of *Nextedy WORKSHEET* Software
+* Install *{{product.name}}* Software on a single instance in a production environment on **1 Polarion server** (including load balanced clustered server)
+* **Perpetual (time unlimited)** use of *{{product.name}}* Software
 * Benefit from Software Support & Maintenance for 12 months - including all updates and online support
 
 Licensing fees are quoted per number of 'active users.' An active **user is** by definition any user account in the Polarion system with the global role  *"User"*, i.e., **anyone who can log in** to Polarion portal.
 
-Detailed conditions available [here](https://worksheet.nextedy.com/download/LICENSE.pdf).
+Detailed conditions available [here]({{product.url}}/download/LICENSE.pdf).
 
 ## 5. Is there trial license available 
 
@@ -89,8 +89,8 @@ Start by requesting a no-obligation quote valid for next 30 days:
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
   hbspt.forms.create({
-	portalId: "6265870",
-	formId: "208fa80c-333b-4347-a303-afa5199f70e7"
+	portalId: "{{hs.id}}",
+	formId: "{{hs.quoteFormId}}"
 });
 </script>
 

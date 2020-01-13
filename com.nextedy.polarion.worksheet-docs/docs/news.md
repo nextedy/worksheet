@@ -41,4 +41,6 @@ var findTweet = function(){
 $(window).bind("load", findTweet);
 </script>
 
+## Old index
+* [Change log](../changelog)
 

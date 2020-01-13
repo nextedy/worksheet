@@ -27,12 +27,29 @@ extra_css:
 extra_javascript:
   - 'extra/extra.js'
   
+extra:
+  product:
+     name: Nextedy WORKSHEET
+     url: https://worksheet.nextedy.com 
+     requirements: Polarion 18.1 and newer   
+  support:
+     solution: 48000448935
+     installGuide: https://nextedy.freshdesk.com/support/solutions/articles/48000973428-nextedy-worksheet-installation-guide 
+  hs:
+     id: 6265870
+     quoteFormId: 208fa80c-333b-4347-a303-afa5199f70e7
+     downloadFormId: 7bbfe403-1d5c-48fb-9e82-4bdcc46c7e4f
+  
 markdown_extensions:
   - admonition
   - codehilite
   - meta
   - tables
   - attr_list
+  
+plugins:
+    - search
+    - markdownextradata: {}  
   
 copyright: 'Copyright &copy; 2020 Nextedy Systems'
   
