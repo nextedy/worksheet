@@ -7,6 +7,15 @@
 * *Maximize team capacity allocations*
 * *Create and assign work records with ease for micro-planning or service-time recording*
 
+<div id="download-button" >
+<center ><br/>
+<a href="./download">
+<button class="mdc-button">&nbsp;Try Now!&nbsp;</button>
+</a>
+</center>
+<br>
+</div>
+
 <a class="sshot" href="/img/worksheet-all.png" title="Worksheet in Polarion ALM"><img src="/img/worksheet-all-thumb.png" alt="Worksheet in Polarion ALM" /></a>
 
 
