@@ -2,6 +2,8 @@ site_name: Nextedy WORKSHEET
 site_description: 'Interactive Work Tracking and Team Assignments for Polarion ALM.'
 site_author: Nextedy
 site_url: https://worksheet.nextedy.com
+site_GTM_ID: GTM-MH3X9GS
+site_HS_ID: 6265870
 
 nav:
     - Home: index.md
