@@ -3,6 +3,11 @@
 
 ### 1.5.* <small>- Dec 16, 2019 </small>
 
+** 1.5.6 <small>- Dec 16, 2019</small>** - Bugfix release
+
+* Fix the incorrect work of the vertical scroll when the mouse pointer is over the sections column
+* Fix caching of the javascript and css files to overcome update issues
+
 ** 1.5.5 <small>- Dec 16, 2019</small>**
 
 * Simplified setup procedure 
