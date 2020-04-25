@@ -67,6 +67,14 @@ markdown_extensions:
 plugins:
     - search
     - markdownextradata: {}  
-  
+    - redirects:
+        redirect_maps:
+            'about.md': 'https://www.nextedy.com/company/'
+            'download.md': 'https://www.nextedy.com/product/nextedy-worksheet/#download'
+            'index.md': 'https://www.nextedy.com/product/nextedy-worksheet/'
+            'news.md': 'https://www.nextedy.com/news/'
+            'pricing.md': 'https://www.nextedy.com/product/nextedy-worksheet/#faq'
+            'support.md': 'https://www.nextedy.com/product/nextedy-worksheet/#support' 
+             
 copyright: 'Copyright &copy; 2020 Nextedy Systems'
   
